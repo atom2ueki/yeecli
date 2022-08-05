@@ -23,7 +23,7 @@ You can install yeecli with pip::
 You're done (make sure developer mode is enabled for your bulb in the app)! Here are a few sample commands::
 
     yee --ip=192.168.0.34 turn on
-    yee --ip=192.168.0.34,192.168.0.28:8329 toggle
+    yee --ip=192.168.0.34,192.168.0.28:8329 toggle // or bg_toggle
     yee --ip=192.168.0.34 rgb ff00ff
     yee --ip=192.168.0.34 brightness 100
 

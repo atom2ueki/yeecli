@@ -146,6 +146,13 @@ def toggle():
     for bulb in BULBS:
         bulb.toggle()
 
+@cli.command()
+def bg_toggle():
+    """BG Toggle the bulb's state on or off."""
+    click.echo("Toggling the bg bulb...")
+    for bulb in BULBS:
+        bulb.bg_toggle()
+
 
 @cli.command()
 @click.argument("hex_color", type=str)
